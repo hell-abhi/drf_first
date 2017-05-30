@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Profiles</h1>
+        <ul>
+            {% for user in users %}
+            <li>{{ user.first_name }}</li>
+            <li>{{ user.last_name }}</li>
+            <li>{{ user.college }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
